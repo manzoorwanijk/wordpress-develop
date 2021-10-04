@@ -164,7 +164,7 @@ class Tests_Image_Header extends WP_UnitTestCase {
 			)
 		);
 
-		// Create inital crop object.
+		// Create initial crop object.
 		$cropped_1 = 'foo-cropped-1.png';
 		$object    = $this->custom_image_header->create_attachment_object( $cropped_1, $id );
 
@@ -172,7 +172,7 @@ class Tests_Image_Header extends WP_UnitTestCase {
 		$previous = $this->custom_image_header->get_previous_crop( $object );
 		$this->assertFalse( $previous );
 
-		// Create the inital crop attachment and set it as the header.
+		// Create the initial crop attachment and set it as the header.
 		$cropped_1_id = $this->custom_image_header->insert_attachment( $object, $cropped_1 );
 		$key          = '_wp_attachment_custom_header_last_used_' . get_stylesheet();
 		update_post_meta( $cropped_1_id, $key, time() );

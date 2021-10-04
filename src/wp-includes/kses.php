@@ -452,7 +452,7 @@ if ( ! CUSTOM_TAGS ) {
 	);
 
 	/**
-	 * @var string[] $allowedentitynames Array of KSES allowed HTML entitity names.
+	 * @var string[] $allowedentitynames Array of KSES allowed HTML entity names.
 	 * @since 1.0.0
 	 */
 	$allowedentitynames = array(
@@ -712,7 +712,7 @@ if ( ! CUSTOM_TAGS ) {
 	);
 
 	/**
-	 * @var string[] $allowedxmlentitynames Array of KSES allowed XML entitity names.
+	 * @var string[] $allowedxmlentitynames Array of KSES allowed XML entity names.
 	 * @since 5.5.0
 	 */
 	$allowedxmlnamedentities = array(

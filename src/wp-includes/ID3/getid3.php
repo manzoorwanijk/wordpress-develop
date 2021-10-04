@@ -186,7 +186,7 @@ class getID3
 	public $option_md5_data          = false;
 
 	/**
-	 * Use MD5 of source file if availble - only FLAC and OptimFROG
+	 * Use MD5 of source file if available - only FLAC and OptimFROG
 	 *
 	 * @var bool
 	 */
@@ -364,7 +364,7 @@ class getID3
 								}
 							}
 						} else {
-							$this->startup_warning .= 'GETID3_HELPERAPPSDIR must not have any spaces in it - use 8dot3 naming convention if neccesary. You can run "dir /x" from the commandline to see the correct 8.3-style names.'."\n";
+							$this->startup_warning .= 'GETID3_HELPERAPPSDIR must not have any spaces in it - use 8dot3 naming convention if necessary. You can run "dir /x" from the commandline to see the correct 8.3-style names.'."\n";
 						}
 					}
 					$path_so_far[] = $value;

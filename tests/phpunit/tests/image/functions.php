@@ -324,7 +324,7 @@ class Tests_Image_Functions extends WP_UnitTestCase {
 	/**
 	 * Get the available image editor engine class(es).
 	 *
-	 * @return string[] Available image editor classes; empty array when none are avaialble.
+	 * @return string[] Available image editor classes; empty array when none are available.
 	 */
 	private function get_image_editor_engine_classes() {
 		$classes = array( 'WP_Image_Editor_GD', 'WP_Image_Editor_Imagick' );

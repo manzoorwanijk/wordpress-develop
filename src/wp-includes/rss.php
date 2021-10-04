@@ -195,7 +195,7 @@ class MagpieRSS {
 			array_unshift( $this->stack, $el );
 		}
 
-		// Atom support many links per containging element.
+		// Atom support many links per containing element.
 		// Magpie treats link elements of type rel='alternate'
 		// as being equivalent to RSS's simple link element.
 		//
@@ -500,7 +500,7 @@ function fetch_rss ($url) {
 			else {
 				$errormsg = "Failed to fetch $url. ";
 				if ( $resp->error ) {
-					# compensate for Snoopy's annoying habbit to tacking
+					# compensate for Snoopy's annoying habit to tacking
 					# on '\n'
 					$http_error = substr($resp->error, 0, -2);
 					$errormsg .= "(HTTP Error: $http_error)";

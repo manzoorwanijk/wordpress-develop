@@ -649,7 +649,7 @@ class getid3_mp3 extends getid3_handler
 				//116..119  VBR Scale
 
 
-				// should be safe to leave this at 'vbr' and let it be overriden to 'cbr' if a CBR preset/mode is used by LAME
+				// should be safe to leave this at 'vbr' and let it be overridden to 'cbr' if a CBR preset/mode is used by LAME
 //				if (substr($headerstring, $VBRidOffset, strlen('Info')) == 'Xing') {
 					$thisfile_mpeg_audio['bitrate_mode'] = 'vbr';
 					$thisfile_mpeg_audio['VBR_method']   = 'Xing';
@@ -1162,7 +1162,7 @@ class getid3_mp3 extends getid3_handler
 
 			} else {
 
-				// next frame is not valid, note the error and fail, so scanning can contiue for a valid frame sequence
+				// next frame is not valid, note the error and fail, so scanning can continue for a valid frame sequence
 				$this->warning('Frame at offset ('.$offset.') is valid, but the next one at ('.$nextframetestoffset.') is not.');
 
 				return false;

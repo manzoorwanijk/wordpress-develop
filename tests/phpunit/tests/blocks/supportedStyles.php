@@ -175,7 +175,7 @@ class Tests_Blocks_SupportedStyles extends WP_UnitTestCase {
 			'attrs'        => array(
 				'textColor'       => 'red',
 				'backgroundColor' => 'black',
-				// The following should not be applied (subcatagories of color support).
+				// The following should not be applied (subcategories of color support).
 				'gradient'        => 'some-gradient',
 			),
 			'innerBlock'   => array(),
@@ -209,7 +209,7 @@ class Tests_Blocks_SupportedStyles extends WP_UnitTestCase {
 					'color' => array(
 						'text'       => '#000',
 						'background' => '#fff',
-						// The following should not be applied (subcatagories of color support).
+						// The following should not be applied (subcategories of color support).
 						'gradient'   => 'some-gradient',
 						'style'      => array( 'color' => array( 'link' => '#fff' ) ),
 					),

@@ -202,7 +202,7 @@
 	}
 
 	/**
-	 * Toogle hover class for mobile devices.
+	 * Toggle hover class for mobile devices.
 	 *
 	 * @since 5.3.1
 	 *

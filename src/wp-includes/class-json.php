@@ -175,7 +175,7 @@ class Services_JSON
     *
     * Normally should be handled by mb_convert_encoding, but
     * provides a slower PHP-only method for installations
-    * that lack the multibye string extension.
+    * that lack the multibyte string extension.
     *
     * @deprecated 5.3.0 Use the PHP native JSON extension instead.
     *

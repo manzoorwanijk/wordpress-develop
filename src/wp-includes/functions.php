@@ -1648,7 +1648,7 @@ function do_feed_atom( $for_comments ) {
  * Displays the default robots.txt file content.
  *
  * @since 2.1.0
- * @since 5.3.0 Remove the "Disallow: /" output if search engine visiblity is
+ * @since 5.3.0 Remove the "Disallow: /" output if search engine visibility is
  *              discouraged in favor of robots meta HTML tag via wp_robots_no_robots()
  *              filter callback.
  */
@@ -2209,7 +2209,7 @@ function wp_is_writable( $path ) {
  * PHP has issues with Windows ACL's for determine if a
  * directory is writable or not, this works around them by
  * checking the ability to open files rather than relying
- * upon PHP to interprate the OS ACL.
+ * upon PHP to interpret the OS ACL.
  *
  * @since 2.8.0
  *
@@ -3183,7 +3183,7 @@ function wp_check_filetype_and_ext( $file, $filename, $mimes = null ) {
 function wp_get_image_mime( $file ) {
 	/*
 	 * Use exif_imagetype() to check the mimetype if available or fall back to
-	 * getimagesize() if exif isn't avaialbe. If either function throws an Exception
+	 * getimagesize() if exif isn't available. If either function throws an Exception
 	 * we assume the file could not be validated.
 	 */
 	try {
@@ -5846,7 +5846,7 @@ function validate_file( $file, $allowed_files = array() ) {
 		return 1;
 	}
 
-	// More than one occurence of `../` is not allowed:
+	// More than one occurrence of `../` is not allowed:
 	if ( preg_match_all( '#\.\./#', $file, $matches, PREG_SET_ORDER ) && ( count( $matches ) > 1 ) ) {
 		return 1;
 	}
@@ -8276,7 +8276,7 @@ function is_php_version_compatible( $required ) {
  * @param int|float $expected  The expected value.
  * @param int|float $actual    The actual number.
  * @param int|float $precision The allowed variation.
- * @return bool Whether the numbers match whithin the specified precision.
+ * @return bool Whether the numbers match within the specified precision.
  */
 function wp_fuzzy_number_match( $expected, $actual, $precision = 1 ) {
 	return abs( (float) $expected - (float) $actual ) <= $precision;

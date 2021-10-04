@@ -1434,7 +1434,7 @@ $this->warning('incomplete/incorrect handling of "stsd" with Parrot metadata in 
 				case 'mdat': // Media DATa atom
 					// 'mdat' contains the actual data for the audio/video, possibly also subtitles
 
-	/* due to lack of known documentation, this is a kludge implementation. If you know of documentation on how mdat is properly structed, please send it to info@getid3.org */
+	/* due to lack of known documentation, this is a kludge implementation. If you know of documentation on how mdat is properly structured, please send it to info@getid3.org */
 
 					// first, skip any 'wide' padding, and second 'mdat' header (with specified size of zero?)
 					$mdat_offset = 0;

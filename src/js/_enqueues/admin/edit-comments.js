@@ -817,7 +817,7 @@ window.commentReply = {
 	},
 
 	/**
-	 * Adds doubleclick event handler to the given comment list row.
+	 * Adds double-click event handler to the given comment list row.
 	 *
 	 * The double-click event will toggle the comment edit or reply form.
 	 *

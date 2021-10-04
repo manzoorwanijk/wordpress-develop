@@ -519,7 +519,7 @@ class getid3_riff extends getid3_handler
 							//  WORD    m_wMarkDistance;   // distance between marks in bytes
 							//  WORD    m_wReserved;
 							//
-							//  //following paramters are ignored if CF_FILESRC is not set
+							//  //following parameters are ignored if CF_FILESRC is not set
 							//  DWORD   m_dwOrgSize;       // original file size in bytes
 							//  WORD    m_bFactExists;     // indicates if 'fact' chunk exists in the original file
 							//  DWORD   m_dwRiffChunkSize; // riff chunk size in the original file
@@ -1165,7 +1165,7 @@ class getid3_riff extends getid3_handler
 				break;
 
 			case 'CDXA':
-				$info['fileformat'] = 'vcd'; // Asume Video CD
+				$info['fileformat'] = 'vcd'; // Assume Video CD
 				$info['mime_type']  = 'video/mpeg';
 
 				if (!empty($thisfile_riff['CDXA']['data'][0]['size'])) {
@@ -2418,10 +2418,10 @@ class getid3_riff extends getid3_handler
 			AZPR	Quicktime Apple Video (AZPR)
 			BGR 	Raw RGB32
 			BLZ0	Blizzard DivX MPEG-4
-			BTVC	Conexant Composite Video
+			BTVC	Connexant Composite Video
 			BINK	RAD Game Tools Bink Video
-			BT20	Conexant Prosumer Video
-			BTCV	Conexant Composite Video Codec
+			BT20	Connexant Prosumer Video
+			BTCV	Connexant Composite Video Codec
 			BW10	Data Translation Broadway MPEG Capture
 			CC12	Intel YUV12
 			CDVC	Canopus DV

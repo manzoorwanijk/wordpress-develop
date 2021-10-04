@@ -569,7 +569,7 @@ class Tests_DB extends WP_UnitTestCase {
 	 *
 	 * @param string|null        $query       The query to run.
 	 * @param string|array       $expected    The expected resulting value.
-	 * @param arrray|string|null $last_result The value to assign to `$wpdb->last_result`.
+	 * @param array|string|null $last_result The value to assign to `$wpdb->last_result`.
 	 * @param int|string         $column      The column index to retrieve.
 	 *
 	 * @dataProvider data_test_get_col
@@ -603,7 +603,7 @@ class Tests_DB extends WP_UnitTestCase {
 	 *
 	 *     @type string|null        $query       The query to run.
 	 *     @type string|array       $expected    The resulting expected value.
-	 *     @type arrray|string|null $last_result The value to assign to `$wpdb->last_result`.
+	 *     @type array|string|null $last_result The value to assign to `$wpdb->last_result`.
 	 *     @type int|string         $column      The column index to retrieve.
 	 */
 	function data_test_get_col() {

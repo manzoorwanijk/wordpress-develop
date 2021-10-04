@@ -57,7 +57,7 @@ class Tests_Post_IsPostStatusViewable extends WP_UnitTestCase {
 				),
 				false,
 			),
-			// 1. True for publically queryable types.
+			// 1. True for publicly queryable types.
 			array(
 				array(
 					'publicly_queryable' => true,

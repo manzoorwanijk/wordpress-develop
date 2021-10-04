@@ -981,7 +981,7 @@ class Tests_User_Capabilities extends WP_UnitTestCase {
 	}
 
 	/**
-	 * Change the capabilites associated with a role and make sure the change
+	 * Change the capabilities associated with a role and make sure the change
 	 * is reflected in has_cap().
 	 */
 	function test_role_add_cap() {
@@ -1023,7 +1023,7 @@ class Tests_User_Capabilities extends WP_UnitTestCase {
 	}
 
 	/**
-	 * Change the capabilites associated with a role and make sure the change
+	 * Change the capabilities associated with a role and make sure the change
 	 * is reflected in has_cap().
 	 */
 	function test_role_remove_cap() {

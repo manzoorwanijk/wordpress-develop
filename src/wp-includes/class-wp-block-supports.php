@@ -58,7 +58,7 @@ class WP_Block_Supports {
 	}
 
 	/**
-	 * Initializes the block supports. It registes the block supports block attributes.
+	 * Initializes the block supports. It registers the block supports block attributes.
 	 *
 	 * @since 5.6.0
 	 */

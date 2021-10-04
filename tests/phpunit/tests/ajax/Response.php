@@ -18,7 +18,7 @@ class Tests_Ajax_Response extends WP_UnitTestCase {
 
 	/**
 	 * Set up the test fixture.
-	 * Override wp_die(), pretend to be ajax, and suppres E_WARNINGs
+	 * Override wp_die(), pretend to be ajax, and suppress E_WARNINGs
 	 */
 	public function set_up() {
 		parent::set_up();
